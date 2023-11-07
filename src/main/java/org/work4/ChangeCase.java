@@ -1,9 +1,8 @@
-package org.example;
+package org.;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
-    public static void main(String[] args) {
+public class ChangeCase {
+    public static void changeCase(String[] args) {
+
         String metin = "Merhaba";
         for (int i = 0; i < metin.length(); i++) {
             char karakter = metin.charAt(i);
