@@ -1,4 +1,4 @@
-package org.work4;
+package org.work2;
 
 import javax.swing.*;
 
