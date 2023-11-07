@@ -2,27 +2,21 @@ package org.example.person;
 import lombok.*;
 
 
+@Getter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public abstract class Person {
 
+    // Özelliğin değerini döndür
     private String fullname;
 
+    // Özelliğin değerini döndür
     private String email;
 
+    // Özelliğin değerini döndür
     private String phone;
 
-
-    public String getFullname() {
-        return fullname; // Özelliğin değerini döndür
-    }
-    public String getEmail() {
-        return email; // Özelliğin değerini döndür
-    }
-    public String getPhone() {
-        return phone; // Özelliğin değerini döndür
-    }
 
     public String setFullname(String value) {
         fullname=value;
@@ -38,5 +32,7 @@ public abstract class Person {
     }
 
 
-    public abstract void regCustomer();
+    public abstract void Online();
+
+    public abstract void    regCustomer();
 }

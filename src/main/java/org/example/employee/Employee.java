@@ -5,7 +5,6 @@ import org.example.employee.Job;
 import org.example.person.Person;
 
 import javax.swing.*;
-
 @Getter
 @Setter
 @NoArgsConstructor
@@ -14,6 +13,11 @@ import javax.swing.*;
 public class Employee extends Person {
 
     private Job job;
+
+    @Override
+    public void Online() {
+
+    }
 
     @Override
     public void regCustomer(){
